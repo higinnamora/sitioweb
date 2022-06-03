@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Quicksand:wght@300;500;700&family=Roboto:wght@400;700;900&display=swap');
+/* Base */
+*, ::before, ::after {
+  box-sizing: border-box
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, ul, p {
+  margin: 0;
+}
+h2, h3 {
+  font-weight: bold;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+p {
+  font-size: 24px;
+}
+
+/* Nav */
+.container {
+  padding: 20px;
+}
+.container-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  background-color: cornflowerblue;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-menu a {
+  color: white;
+}
+.title-principal {
+  font-size: 34px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.title-secondary {
+  margin-bottom: 30px;
+  color: cornflowerblue;
+}
+.article {
+  max-width: 800px;
+}
+.article p {
+  margin-bottom: 12px;
+}
+.article-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+  max-width: 400px;
+}
+.content-principal-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content-principal {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul, li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+li {
+  padding: 12px;
+}
+.secciones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navigation a {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  color: black;
+}
+.up a {
+  color: black;
+  font-size: 22px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: auto;
+  height: 60px;
+  background-color: cornflowerblue;
+}
