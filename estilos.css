@@ -112,15 +112,41 @@ li {
   align-items: center;
   flex-direction: column;
 }
+.navigation h3 {
+  margin-bottom: 24px;
+}
 .navigation a {
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
   color: black;
 }
+.navigation a:hover {
+  text-decoration: underline;
+}
+.b-color a, .b-color h3 {
+  color: white;
+}
 .up a {
   color: black;
   font-size: 22px;
+}
+.gallery-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+.gallery-card img {
+  max-width: 400px;
+  margin-bottom: 24px;
+}
+.gallery-card h3 {
+  color: white;
+}
+.footer span {
+  color: white;
 }
 .footer {
   display: flex;
